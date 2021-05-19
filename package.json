@@ -14,12 +14,13 @@
     "react-typed": "^1.2.0",
     "web-vitals": "^1.0.1"
   },
-  "homepage": "https://rairai19.github.io/raizampw",
+  "homepage": "https://rairai19.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
